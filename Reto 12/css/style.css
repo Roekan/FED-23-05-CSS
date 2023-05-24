@@ -1,0 +1,21 @@
+table{
+    border-spacing: 0px;
+    border: 3px solid #3090a6;
+}
+
+th, .title{
+    background-color: #003334 ;
+    color:#c8ffca;
+}
+
+td, th{
+    border: 2px solid #3090a6;
+}
+
+tr:nth-child(2n){
+    background-color:#c8ffca;
+}
+
+tr:nth-child(3n){
+    background-color:#97cc9e;
+}

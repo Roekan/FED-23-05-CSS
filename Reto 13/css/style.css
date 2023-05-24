@@ -1,0 +1,36 @@
+
+
+
+td, th{
+    border: 1px solid ;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+th{
+    background-color: #96fd8d;
+}
+
+.text-red>span{
+    color:#d24048;
+}
+
+table{
+    border: 1px solid ;
+    border-spacing: 0px;
+    width: 100%;
+}
+
+.blue{
+background-color: #65ffff;
+text-align: left;
+justify-content: center;
+}
+
+.pink{
+    background-color: #ff99ff;
+    text-align: right;
+    vertical-align: bottom;
+    
+}

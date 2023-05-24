@@ -1,0 +1,95 @@
+*{
+    font-family: sans-serif;
+}
+
+body, html{
+    display: flex;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container{
+display: block;
+}
+
+.title{
+    text-align: center;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+.box-input{
+    display: block;
+    text-align: center;
+    padding:2vw 0vw;
+
+}
+
+input[type='email'],input[type='password'] {
+    height: 3vw;
+    border:none;
+    background-color:#ddd;
+    margin-left:1rem;
+}
+
+input[type='email']:focus-visible,input[type='password']:focus-visible{
+    outline:none;
+}
+
+.box-email, .box-password{
+    display: flex;
+    background-color: #ddd;
+    margin: 1vw 2vw;
+    padding:1vw 2vw;
+    border-radius: 3vw;
+    border:none;
+}
+
+.box-email>svg, .box-password>svg{
+    width:2.4vw;
+    height: auto;
+}
+
+.box-button{
+
+    display: flex;
+}
+
+input[type='submit']{
+    width: 100%;
+    background-color: #59b744;
+    margin: 1vw 2vw;
+    padding:1vw 2vw;
+    border-radius: 3vw;
+    border:none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.box-forgot,.box-create{
+    text-align:center;
+    font-size: 0.8rem;
+
+
+}
+.box-forgot a, .box-create a{
+    text-decoration: none;
+    color:#666;
+}
+
+span{
+    font-weight: bold;
+}
+
+.box-create{
+    text-align:center;
+    margin-top:14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.container{
+    background-image: url(../images/pinguinos.jpeg);
+width: 550px;
+height: 432px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+div.table{
+    width: 70%;
+}
+
+table{
+    border: 1px solid ;
+    border-spacing: 0px;
+    width: 100%;
+}
+
+
+
+td, th{
+    border: 1px solid ;
+    text-align: center;
+}
+
+
+th{
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+td{
+    
+    background-color: #fdfe98;
+}

@@ -1,0 +1,63 @@
+*{
+    font-family: sans-serif;
+}
+
+body, html{
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    max-height:100vh;
+    overflow-x: auto;
+
+}
+
+
+
+.container{
+    padding: 0.5vw;
+    background-color: #fff;
+    width: 30%;
+
+}
+
+div>div{
+    
+    background-color: hotpink;
+    padding:0.2vw 0.7vw;
+
+    margin:0.5vw;
+}
+
+h1{
+    font-size: 1.2vw;
+    line-height: 0.6vw;
+}
+
+p{
+    text-align: end;
+}
+.title{
+    
+    background-color: rgba(237,146,249,0.3);
+}
+.text{
+    background-color: rgba(237,146,249,0.6)
+}
+
+.box-button{
+    text-align: center;
+    padding:1vw 0.7vw;
+    background-color: rgba(237,146,249,1)
+}
+
+
+input{
+width: 7vw;
+height: 2vw;
+border:3px dotted #000;
+}
+

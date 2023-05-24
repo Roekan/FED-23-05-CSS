@@ -1,0 +1,39 @@
+*{
+    font-family: sans-serif;
+}
+
+body, html{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.box-button{
+    text-align: center;
+    padding:1vw 0.7vw;
+    background-color: #1c9792;
+    transition: all 1s;
+}
+.box-button:hover{
+    text-align: center;
+    padding:1vw 0.7vw;
+    background-color: #1c9792;
+    border-radius: 2vw;
+    transition: all 1s;
+}
+
+
+input{
+width: 15vw;
+height: 4vw;
+border:none;
+background: none;
+font-size: 2rem;
+}

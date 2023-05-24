@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.container{
+    background-image: url(../images/pinguinos.jpeg);
+width: 550px;
+height: 432px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+div.table{
+    width: 100%;
+}
+
+table{
+    border: 1px solid ;
+    border-spacing: 0px;
+    width: 100%;
+}
+
+th,td{
+    border: 1px solid #000;
+    color:#563220;
+    font-family: sans-serif;
+}
+
+th{
+    background-color: #679864;
+}
+td{
+    text-align: center;
+}
+
+
+.title{
+    background-color: #ffcb99;
+}
+.subtitle{
+background-color: #fdfba5;
+}
+
+.info>td{
+    background-image: url(../images/image.jpg);
+    background-position: center;
+    background-size:contain;
+}
